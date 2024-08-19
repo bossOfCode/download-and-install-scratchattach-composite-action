@@ -1,0 +1,10 @@
+name: 'Download and install scratchattach'
+description: 'downloads and installs scratchattach from pip'
+runs:
+  using: "composite"
+  steps:
+    - name: Update pip
+      run: python3 -m pip install --upgrade pip
+
+    - name: install scratchattach
+      run: pip install -U scratchattach
