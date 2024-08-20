@@ -5,6 +5,8 @@ runs:
   steps:
     - name: Update pip
       run: python3 -m pip install --upgrade pip
+      shell: bash
 
     - name: install scratchattach
       run: pip install -U scratchattach
+      shell: bash
