@@ -1,5 +1,7 @@
 name: 'Download and install scratchattach'
 description: 'downloads and installs scratchattach from pip'
+icon: arrow-down-circle
+color: black
 runs:
   using: "composite"
   steps:
